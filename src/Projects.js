@@ -14,7 +14,7 @@ function Projects(props) {
       <h2>Projects</h2>
       <h3>Subcity Radio</h3>
       <p>Currently volunteering at Community Radio station <a href="https://www.subcity.org">Subcity Radio</a> <br></br>Full stack developer</p>
-      <img class="spinner" src={gif} alt=""></img>
+      <img class="spinner" src={gif} alt="subcity"></img>
         <Thumbnail
             link="/archive"
             image={archivepic}
