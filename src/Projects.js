@@ -6,13 +6,15 @@ import interactive from './images/interactive.png'
 import archivepic from './images/archives.png'
 import gemspic from './images/gemspic.png'
 import stentpic from './images/stentpic.jpg'
+import gif from './images/spin_subcity.gif'
 
 function Projects(props) {
   return (
     <div class="project-desc">
       <h2>Projects</h2>
       <h3>Subcity Radio</h3>
-      <p>Currently volunteering at Community Radio station <a href="https://www.subcity.org">Subcity Radio</a> <br></br>Server maintenance and web devlopment</p>
+      <p>Currently volunteering at Community Radio station <a href="https://www.subcity.org">Subcity Radio</a> <br></br>Full stack developer</p>
+      <img class="spinner" src={gif} alt=""></img>
         <Thumbnail
             link="/archive"
             image={archivepic}
@@ -56,7 +58,7 @@ function Projects(props) {
           <h2>Personal Projects</h2>
 
           <Thumbnail
-            link="/"
+            link="/livecode"
             image=""
             title="xFadeIn"
             category="Livecoding (TIDAL + SUPERCOLLIDER)" />

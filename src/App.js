@@ -11,13 +11,14 @@ import Interactive from './Interactive'
 import Stent from './Stent'
 import Gems from './Gems'
 import Botnet from './Botnet'
+import Livecode from './Livecode'
 
 
 function App() {  
   return (
     <BrowserRouter>
       <div className="App">
-        <h1 class="title">Portfolio</h1>
+        <h1 class="title flicker">Portfolio</h1>
         <Route exact path ="/" component={Home} />
         <Route path ="/about" component={About} />
         <Route path ="/projects" component={Projects} />
@@ -27,7 +28,7 @@ function App() {
         <Route path = "/botnet" component={Botnet}/>
         <Route path = "/gems" component={Gems}/>
         <Route path = "/stent" component={Stent}/>
-
+        <Route path = "/livecode" component={Livecode}/>
 
         <div className="nav">
           <div className="nav-items">

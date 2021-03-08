@@ -6,7 +6,7 @@ function Interactive(props) {
   return (
     <div class="project-select">
       <h1>Subcity Radio Interactive Piece</h1>
-      <p>A shared, live interactive audio experience, adapted from <a href="https://github.com/lil-data/algo">Lil Data</a></p>
+      <p>A shared, live interactive audio experience, adapted from <a href="https://github.com/lil-data/algo">Lil Data</a>. Being interactive, multiple users control the same audio generation across different browsers.</p>
       <a href="https://www.subcity.org/interactive">
       <img src={interactive}></img>
       </a>

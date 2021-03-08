@@ -6,7 +6,7 @@ function Gems(props) {
   return (
     <div class="project-select">
       <h1>Glasgow Gems</h1>
-      <p>Second Year Group Project: Django Web Application, social network sharing architecture around Glasgow</p>
+      <p>Second Year Group Project: Django Web Application, social network sharing architecture around Glasgow. Deployed for grading (not longer hosted), testing with a set of real users.</p>
       <a href="https://github.com/sibsones/glasgowgems">
       <img src={gemspic}></img>
       </a>

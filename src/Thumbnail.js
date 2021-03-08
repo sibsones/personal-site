@@ -7,9 +7,9 @@ function Thumbnail(props) {
     <div className="project">
       <Link class="link" to={props.link}>
         <div className="project-title">{props.title}</div>
-        <div className="project-image">
+        {/* <div className="project-image">
           <img class="img-thumbnail" src={props.image} alt=""/>
-        </div>
+        </div> */}
       </Link>
         <div className="project-category">{props.category}</div>
     </div>

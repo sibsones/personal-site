@@ -14,7 +14,7 @@ function About(props) {
         <li>Django | React</li>
         <li>Linux | Git</li>
         <li>Java | Rust | Haskell</li>
-        <li>MySQL</li>
+        <li>MySQL | MongoDB</li>
       </ul>
     </div>
   )

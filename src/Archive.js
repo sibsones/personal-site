@@ -10,7 +10,8 @@ function Archive(props) {
       <a href="https://www.subcity.org/archive">
       <img src={archivepic}></img>
       </a>
-      <p>Technologies: Django, Google Cloud API (Image Hosting Bucket)</p>
+      <p>This archive showcases 25 years of Subcity's history, team members can upload new entries through Django forms, hosting multiple filetypes, descriptions and tags. Currently ongoing redesign, as a collaboration between Web, Archives and Design teams.</p>
+      <p>Technologies: Django, Google Cloud API</p>
     </div>
   )
 }
