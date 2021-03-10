@@ -3,7 +3,6 @@ import './App.css';
 import React,{Component} from 'react'
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Projects from './Projects.js'; 
-import About from './About.js'; 
 import Home from './Home.js'
 import Archive from "./Archive"
 import Freshers from './Freshers'
@@ -18,10 +17,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1 class="title flicker">Portfolio</h1>
+        <h1 class="title">Luis Sibson</h1>
         <Route exact path ="/" component={Home} />
-        <Route path ="/about" component={About} />
-        <Route path ="/projects" component={Projects} />
+        <Route path ="/portfolio" component={Projects} />
         <Route path = "/archive" component={Archive}/>
         <Route path = "/freshers" component={Freshers}/>
         <Route path = "/interactive" component={Interactive}/>
@@ -33,8 +31,7 @@ function App() {
         <div className="nav">
           <div className="nav-items">
             <Link to="/" class="middle">Home</Link>
-            <Link to="/about" class="middle">About</Link>
-            <Link to="/projects" class="middle">Projects</Link>
+            <Link to="/portfolio" class="middle">Portfolio</Link>
 
           </div>
         </div>
