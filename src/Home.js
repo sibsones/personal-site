@@ -8,7 +8,7 @@ function Home(props) {
         <img class="profilepic" src={profilepic}></img>
       </div>
         <div class="about">
-          <p>This is a portfolio of my current & previous projects and my first dive into React! <br></br> I'm a 2021 graduate in Computer Science with particular interests in client focussed Web and Mobile development.</p>
+          <p>This is a portfolio of my current & previous projects and my first dive into React! <br></br> I'm a 2021 graduate in Computing Science with particular interests in client focussed Web and Mobile development.</p>
           <a href = "mailto: luis.sibson@gmail.com">Contact</a>
           <br></br>
           <p>

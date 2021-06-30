@@ -7,6 +7,7 @@ import archivepic from './images/archives.png'
 import gemspic from './images/gemspic.png'
 import stentpic from './images/stentpic.jpg'
 import gif from './images/spin_subcity.gif'
+import livecodepic from './images/xfadein.png'
 
 function Projects(props) {
   return (
@@ -35,7 +36,7 @@ function Projects(props) {
 
         <h2>University Projects</h2>
         <h3>University of Glasgow</h3>
-        <p>2021 Graduate</p>
+        <p>2021 Graduate - 2:1 Computing Science BSc</p>
 
         <Thumbnail
             link="/botnet"
@@ -59,7 +60,7 @@ function Projects(props) {
 
           <Thumbnail
             link="/livecode"
-            image=""
+            image={livecodepic}
             title="xFadeIn"
             category="Livecoding (TIDAL + SUPERCOLLIDER)" />
 
